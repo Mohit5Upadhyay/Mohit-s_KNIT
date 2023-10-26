@@ -1,0 +1,1013 @@
+/* creating CSS file for the college website */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    width: 100%;
+    display: flex;
+
+}
+
+.logo-img{
+    padding-left: 80px;
+    border-right: 5px solid #13426b;
+    border-radius: 0 0 75px 0;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 25px 0px;
+    border-bottom: 1px solid #13426b;
+}
+.outer-adjacent{
+    background-color: #116ca1;
+    height: 44px;
+    width: 100%;
+}
+.inner-adjacent{
+    background-color: #13426b;
+    height: 33px;
+    width: 100%;
+}
+.i-a-links{
+    display: flex;
+    justify-content: end;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+
+}
+.link-item{
+    list-style: none;
+    color: white;
+    
+}
+.link-item>img{
+    width: 25px;
+    height: 25px;
+}
+.link-item>img:hover{
+    cursor: pointer;
+}
+.link-item>i{
+    padding: 10px 6px;
+    cursor: pointer;
+}
+.nav{
+    height: 53px;
+    width: 100%;
+    background-color: #13426b;
+    padding: 0px 69px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .45);
+}
+.nav-links{
+    display: flex;
+}
+.nav-item{
+    font-weight: 900px;
+    font-family: sans-serif;
+    color: white;
+    list-style: none;
+    padding: 16px 27px;
+    letter-spacing: -.1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.nav-item:hover {
+    color: #f0a310;
+}
+.rec{
+    height: 43px;
+    width: 100%;
+    background-color: #eeeeee;
+    
+    display: flex;
+}
+.highlight{
+    height: 43px;
+    width: 277px;
+    background-color: #6f130d;
+    text-align: right;
+    text-transform: uppercase;
+    padding: 10px 15px ;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.arr{
+    display: flex;
+    align-items: center;
+}
+.rec-mar{
+   padding: 10px 5px 10px 10px;
+    height: 43px;
+    width: 100%;
+    background-color: #eeeeee;
+}
+.rec-mar>marquee>a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+    font-weight: 570;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pause-btn{
+    height:43px;;
+    width: 60px;
+    background-color: #dfdfdf;
+}
+.pause-btn>i{
+    padding: 20px ;
+}
+
+/* main sec */
+.main{
+    display: flex;
+
+}
+.in-dir-sec{
+    height: 580px;
+    width: 920px;
+    background-image: url("https://knit.ac.in/images/buildingbg.png");
+    border:15px solid #fff ;
+}
+.cir-sec{
+    height: 580px;
+    width: 650px;
+    background-color: #fbf5ed;
+    border-top:15px solid #fff ;
+    border-right:15px solid #fff ;
+    border-bottom:15px solid #fff ;
+   
+}
+
+.i-d-s-img{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px 15px 15px 15px;
+
+}
+.d-s-box{
+    height: 210px ;
+    width: 260px;
+    margin: 12px;
+    border-radius: 5px ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+    background-color: #fff;
+}
+.box-img{
+    display: flex;
+    justify-content: center;
+
+}
+.box-img>img{
+    width: 106px;
+    height: 106px ;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+.box-txt{
+    text-align: center;
+}
+.box-txt>h4{
+    color: #6f130d;
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 5px 0;
+}
+.box-txt>p{
+    font-family: system-ui,  'Segoe UI',  'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+.cir-sec{
+    padding: 15px 10px  15px 50px;
+}
+.cir-sec>text{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #13426b;
+    font-family: "Yeseva One";
+    
+}
+.cir-btn{
+    text-transform: uppercase;
+    float: right;
+    padding: 8px 12px;
+    background-color: #116ca1;
+    color: white;
+    font-weight: 550;
+    font-family: system-ui;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+.cir-btn:hover{
+    background-color: #2a8ec8;
+    cursor: pointer;
+}
+
+.in-cir-sec{
+    margin-top: 10px;
+    max-height: 450px;
+    width: 550px ;
+    overflow: auto;
+}
+.in-cir-sec::-webkit-scrollbar {
+    display: none;
+  }
+.box-in-cir-sec{
+    height: 120px;
+    width: 100%;
+    border-bottom:1px solid #737373 ;
+    display: flex;
+    justify-content: space-around;
+
+}
+.calendra{
+    text-align: center;
+}
+
+.cal-logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #116ca1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin: 10px ;
+}
+.up-date{
+    color: #6f130d;
+    font-weight: 560;
+    font-size: medium;
+    font-family: system-ui;
+}
+.up-size{
+    color: #737373;
+    font-family: system-ui;
+    font-size: small;
+}
+.in-update>a{
+    text-decoration: none;
+    font-weight: 700;
+    font-family: system-ui;
+    color: #151515;
+    display: block;
+    padding: 9px 2px 5px 0px;
+}
+
+
+
+.main1{
+    display: flex;
+
+}
+.news{
+    height: 492px;
+    width: 710px;
+    border-top: 2px solid #116ca1;
+    padding: 25px 25px 25px 80px;
+    background-image: url("https://knit.ac.in/images/wave-41442.png");
+    background-position: -212px 236px;
+    background-repeat: no-repeat;
+}
+.clipper{
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+    height: 90px ;
+    width: 90px;
+    background-color: #116ca1;
+    z-index: 0;
+    position: absolute;
+    
+}
+.events{
+    max-height: 400px ;
+    width: 500px ;
+    overflow: auto;
+
+}
+.event-update{
+    width: 100%;
+}
+.events::-webkit-scrollbar {
+    display: none;
+  }
+.event-box{
+    height: 130px ;
+    width: 498px;
+    display: flex;
+    border-bottom: 1px solid #737373;
+}
+.event-logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #6f130d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin: 10px ;
+}
+.event-up-date{
+    color: #13426b;
+    font-weight: 560;
+    font-size: medium;
+    font-family: system-ui;
+}
+
+.news>h2{
+    font-family: 'Yeseva One', 'cursive';
+    margin-bottom: 8px;
+
+}
+.news-btn{
+    text-transform: uppercase;
+    background: transparent;
+    border: 1.5px solid #116ca1;
+    color: #116ca1;
+    padding: 6px 10px; 
+    float: right;
+    cursor: pointer;
+    font-weight: 510;
+}
+.news-btn:hover{
+    background-color: #116ca1;
+    color: white;
+}
+
+.features{
+    height: 492px;
+    background-color: #116ca1;
+    width: 924px;
+    padding: 25px 80px 25px 25px;
+}
+.features>h2{
+    font-family: 'Yeseva One', 'cursive';
+    color: white;
+    margin-bottom: 8px;
+}
+.fea-btn{
+    text-transform: uppercase;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 6px 10px; 
+    float: right;
+    cursor: pointer;
+}
+.fea-btn:hover{
+    background-color: rgb(6, 176, 6);
+    color: white;
+    border: 1px solid rgb(6, 176, 6);
+}
+.features>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 20px 10px 10px 10px;
+    font-weight: 400;
+    color: #212529;
+}
+
+.container{
+    width: 100%;
+    height: 677px;
+    background-image: url("https://knit.ac.in/images/collagebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+
+}
+
+
+
+
+.options{
+    max-width: 100% ;
+    margin: 0px 140px 0px 140px;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr 5fr 5fr;
+    grid-auto-rows: 180px;
+    gap: 10px 10px;
+}
+
+.box{
+    width: 252px ;
+    height: 180px ;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 10px;
+}
+.box:hover{
+    background-color: transparent;
+}
+.box-inner{
+    width: 234px;
+    height: 160px;
+    background-color:#fff ;
+    border-radius: 2px;
+    padding: 15px;
+    text-align: center;
+}
+.box-inner:hover{
+    background-color: #6f130d;
+    cursor: pointer;
+}
+
+.symbol{
+    margin: 0 auto 20px ;
+    width: 70px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: block;
+    border-radius: 5px;
+}
+.symbol>img{
+    padding: 10px;
+    height: 60px;
+    width: 70px;
+}
+.symbol:hover{
+    background-color: white;
+    color: white;
+}
+.box-inner>a{
+    text-decoration: none;
+    color: #060606;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+.box-inner>a:hover{
+    color: white;
+}
+
+
+
+.slider{
+    height: 103px ;
+    width: 100%;
+    padding: 8px 200px;
+    display: flex;
+}
+.in-slider{
+    display: flex;
+    gap: 20px;
+    max-width: 1300px;
+    overflow-y: auto;
+
+    margin: 0 10px 0 10px;
+    
+
+
+}
+
+
+.in-slider::-webkit-scrollbar {
+    display: none;
+  }
+
+  
+.slider-box{
+    height: 66px;
+    width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+}
+.slider-box>img{
+   height: 55px;
+   width: 300px;
+}
+.slider-box:hover{
+    cursor: pointer;
+}
+.slider-btn-left{
+    text-align: center;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.slider-btn-right{
+    bottom: -20px;
+    float: right;
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.end-section{
+    height: 315px ;
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    background-color: #13426b;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 0 ;
+}
+
+.more-info{
+    margin-left: 220px;
+    padding-left: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 480;
+
+}
+.more-info>p{
+    padding-bottom: 10px;
+}
+.more-info>p>a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+.visitor>p{
+    padding-bottom: 10px;
+    text-align: right;
+}
+.visitor{
+    margin-right: 220px;
+    padding-right: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 480;
+
+}
+.end-section{
+    background-image: url("https://knit.ac.in/images/wave-41442.png ");
+    background-position: 33px -111px;    background-repeat:round;
+    height: 350px;
+
+}
+.inner-end-sec{
+    display: flex;
+    margin: 0px 220px 0px 220px;
+    padding: 18px 0 0 0 ;
+    background-repeat: no-repeat;
+}
+
+.boxSize{
+    width: 310px;
+    height: 290px;
+    padding: 10px 25px;
+}
+
+h5{
+    color: #6f130d;
+    font-family: "Yeseva One";
+    font-size: 20px ;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.imp-l>li{
+    list-style: none;
+}
+.imp-l>li>a{
+    text-decoration: none;
+    color: #4c5866;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: block;
+
+}
+.imp-l>li>a:hover{
+    color: #891a12;
+}
+.estd{
+    color: #6f130d;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 5px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.c-code{
+    font-weight: 570;
+    font-size: 11px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.loc{
+    margin-top: 25px;
+    padding: 10px 8px 10px 50px;
+    background-image: url("https://knit.ac.in/images/684809.png");
+    background-size: 15%;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #212529;
+
+}
+.phone{
+    background-image: url("https://knit.ac.in/images/contact-mail.png");
+    background-repeat: no-repeat;
+    background-size: 15%;
+    min-height: 40px;
+    background-position: left-top;
+    padding: 10px 8px 10px 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #212529;
+
+
+
+}
+
+/*  hide SCroll Bar */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* hamburger  */
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+    float: left;
+    padding: 6px 20px;
+
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 4px auto;
+    --webkit-transition:all 0.3s ease-in-out;
+    transition:all 0.3s ease-in-out;
+    background-color: rgb(244, 240, 240);
+    border-radius: 5px;
+
+}
+
+
+
+.video-cap{
+    width: 100% !important;
+}
+
+.video-box{
+    width: 100%;
+    background-size: cover;
+}
+video{
+    max-height: 500px;
+}
+.video-btn{
+    position: absolute;
+    bottom: 120px;
+    right: 28px;
+    
+}
+.video-btn>button{
+    padding: 8px 5px;
+    background-color: #891a12;
+    color: white;
+    font-family: system-ui;
+    font-weight: 550;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+/* Let's Make the Website Responsive */
+
+@media  screen and (max-width:1470px ) {
+    .main{
+        flex-direction: column;
+    }
+    .in-dir-sec{
+        height: 100%;
+        width: 100%;
+        background-image: url("https://knit.ac.in/images/buildingbg.png");
+        border:15px solid #fff ;
+    }
+    .i-d-s-img{
+        justify-content: center;
+        align-items: center;
+    }
+    .cir-sec{
+        width: 100%;
+        padding: 30px 20px ;
+    }
+
+    .in-cir-sec{
+        width: 100%;
+        padding: 15px 20px 15px 20px;
+    }
+    .cir-sec>text {
+        padding: 0 0 0 35px;
+    }
+    .cir-btn{
+        margin-right: 45px;
+    }
+    
+}
+
+
+
+
+
+@media screen and (max-width: 1470px ) {
+    .options{
+        grid-template-columns: auto auto;
+    }
+    
+}
+
+
+@media screen and (max-width: 1470px ) {
+    
+    .main1{
+        flex-direction: column;
+    }
+    
+    .news{
+        width: 100%;
+        padding: 45px 25px 25px 100px;
+        background-size: 100%;
+        background-position: -10px 136px;
+    }
+
+    .event-box{
+        width: 100%;
+    }
+
+    .features{
+        width: 100%;
+        height: 50%;
+    }
+    .container{
+        height: 100%;
+    }
+
+    .slider{
+        padding: 10px ;
+        height: 95px;
+    }
+    .inner-end-sec{
+        flex-direction: column;
+    }
+    .end-section{
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position:top;
+        background-size: contain;
+    }
+    .footer{
+        flex-direction: column;
+        line-height: 1.8rem;
+
+    }
+    
+    .visitor{
+        margin-left: 220px;
+        padding-left: 10px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 480;
+    
+    }
+    .visitor>p{
+        text-align: left;
+    }
+    .logo-sec{
+        margin-bottom: 30px;
+    }
+    .events{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:1072px) {
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: absolute;
+        left: -100%;
+        top: 150px;
+        z-index: 1;
+        flex-direction: column;
+        background-color: rgb(144, 57, 57);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    
+    .nav-menu.active{
+        left: 0;
+
+    } 
+    .brown-nav{
+        height: 40px;
+        background-color: rgb(144, 57, 57);
+    }
+    
+}
+
+
+@media screen and (max-width: 1090px) {
+    .outer-adjacent{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 777px) {
+
+    .logo-img{
+        width: 100%;
+        position: relative;
+        border-radius: 0;
+        border: 0;
+        padding: 33px 2px 10px 13px;
+        background-color: #fff;
+        box-shadow: none;
+        z-index: 2;
+        margin: -26px 12px;    
+    }
+    .options{
+        margin: 0 90px 0 90px;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+
+    
+}
+@media screen and (max-width: 763px) {
+    .logo-img{
+        width: 90%;
+    }
+   
+    
+}
+
+@media screen and (max-width: 750px) {
+    .news{
+        padding: 20px;
+    }
+    .cir-sec{
+        padding: 20px 10px;
+    }
+    .in-cir-sec{
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:641px ) {
+    .d-s-box{
+        width: 100%;
+    }
+
+    
+    
+}
+@media screen and (max-width:640px) {
+    .inner-end-sec{
+        margin: 0 0 0  0 ;
+        padding: 15px;
+
+    }
+    .end-section{
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position:top;
+        background-size: contain;
+    }
+    .footer{
+        flex-direction: column;
+        line-height: 1.8rem;
+        width: 100%;
+
+    }
+    
+    .visitor{
+        margin-left: 220px;
+        padding-left: 10px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 480;
+    
+    }
+    .visitor>p{
+        text-align: left;
+    }
+    .boxSize{
+        width: 100%;
+    }
+    .more-info{
+        margin: 0;
+        margin-right: 10px;
+    }
+    .visitor{
+        margin-left: 5px;
+    }
+    .box-in-cir-sec{
+        height: 165px;
+    }
+    .event-box {
+        height: 165px;
+    }
+    .box-inner{
+        width: 150px;
+    }
+    .box{
+        width: 175px;
+    }
+    .visitor{
+        margin-right: 10px;
+    }
+    .cal-logo{
+        width: 50%;
+    }
+}
+@media screen and (max-width:500px) {
+    .highlight,.arr>i{
+        display: none;
+    }
+   
+    
+}
+@media screen and (max-width:400px) {
+    .head{
+        flex-direction: column;
+    }
+    .outer-adjacent{
+        display:contents ;
+    }
+    .nav{
+        background-color: #116ca1;
+        height: 8px;
+    }
+    .inner-adjacent{
+        height: 62px;
+    }
+    .links{
+        padding: 30px 3px 5px 15px;
+        gap: 14px;
+    }
+    .clipper{
+        clip-path: polygon(100% 0, 0 0, 0 100%);
+        height: 90px ;
+        width: 90px;
+        background-color: #116ca1;
+        z-index:-100;
+        position: absolute;
+        
+    }
+    .news{
+        padding-top: 66px;
+    }
+    .video-box{
+        height: 222px;
+    }
+
+    .video-btn{
+        position: absolute;
+        bottom: 230px;
+        right: 12px;
+        
+    }
+    .video-btn>button{
+        padding: 8px 5px;
+        background-color: #891a12;
+        color: white;
+        font-family: system-ui;
+        font-weight: 550;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    
+
+}
